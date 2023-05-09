@@ -37,9 +37,9 @@ function About() {
           <p className="py-5 text-gray-500">
             Mempunyai pengalaman selama kurang lebih 1 tahun dalam pengembangan
             aplikasi mobile sebagai frontend developer. Familiar dengan HTML,
-            CSS, Javascript dan beberapa library seperti jQuery, Bootstrap dan
-            React JS. Saya terbuka untuk tawaran pekerjaan sebagai Frontend
-            Developer .
+            CSS, Javascript dan beberapa library dan framework seperti React JS,
+            Next JS dan Tailwind CSS. Saya terbuka untuk tawaran pekerjaan
+            sebagai Frontend Developer.
           </p>
           <div className="grid">
             <div className="grid grid-rows-4 grid-flow-col gap-4 my-5">

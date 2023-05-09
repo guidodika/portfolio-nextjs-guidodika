@@ -53,7 +53,7 @@ function Resume() {
                     </div>
                   </div>
                   <div className="flex flex-col">
-                    <div className="bg-teal-100 rounded-lg text-center p-1 md:ml-auto w-fit">
+                    <div className="bg-gray-300 rounded-lg text-center p-2 md:ml-auto w-fit dark:text-gray-900">
                       FULLTIME
                     </div>
                     <div className="flex flex-row items-center gap-2">

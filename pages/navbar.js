@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useState } from "react";
+import { GrGithub } from "react-icons/gr";
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -73,7 +74,26 @@ function NavBar() {
                 Contact
               </Link>
             </li>
+            <li>
+              <Link
+                href="https://github.com/guidodika/portfolio-nextjs-guidodika"
+                target="_blank"
+                class="md:hidden block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 dark:text-white"
+              >
+                Source Code This Website
+              </Link>
+            </li>
           </ul>
+        </div>
+        <div className="hidden md:block">
+          <a
+            href="https://github.com/guidodika/portfolio-nextjs-guidodika"
+            target="_blank"
+          >
+            <button className="p-3 bg-gray-600 text-white rounded-3xl flex items-center gap-2 ">
+              Source Code <GrGithub />
+            </button>
+          </a>
         </div>
       </div>
     </nav>

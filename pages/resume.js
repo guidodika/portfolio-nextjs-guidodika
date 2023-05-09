@@ -106,7 +106,7 @@ function Resume() {
               </div>
             </div>
           </div>
-          <div className="w-50 h-50 mt-10 md:mt-0 bg-gray-200 border-2 rounded-full md:h-[30%] md:w-[30%]">
+          <div className="w-50 h-50 mt-10 md:mt-0 bg-gray-200 border-2 rounded-full overflow-hidden md:h-[30%] md:w-[30%]">
             <Image src={me} alt="gambar" />
           </div>
         </div>

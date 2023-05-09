@@ -8,7 +8,7 @@ function Home() {
   return (
     <Layout>
       <div>
-        <div className="h-screen md:h-fit grid p-10 md:flex md:justify-around pt-5 ">
+        <div className="h-screen  md:h-fit grid p-10 md:flex md:justify-around pt-5 ">
           <ToogleTheme />
           <div className="font-nunito font-bold my-auto">
             <h3 className="text-2xl md:text-3xl py-1">Hey semuanya,</h3>
@@ -23,7 +23,7 @@ function Home() {
           <Image
             src={me}
             alt="gambar"
-            className=" h-50 w-50 object-scale-down rounded-full md:w-[400px] md:h-[500px] dark:border-2"
+            className=" h-50 w-50 object-scale-down rounded-full md:w-[300px] md:h-[450px] dark:border-2"
           />
         </div>
       </div>

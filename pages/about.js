@@ -139,12 +139,12 @@ function About() {
                 href="https://api.whatsapp.com/send?phone=6289603915525"
                 target="_blank"
               >
-                <button className="bg-gray-600 p-5 rounded-full text-white">
+                <button className="bg-gray-600 hover:bg-gray-500 p-5 rounded-full text-white">
                   Hire Me
                 </button>
               </a>
               <a href="cv-guidodika.pdf" download>
-                <button className="bg-gray-600 p-5 rounded-full text-white">
+                <button className="bg-gray-600 hover:bg-gray-500 p-5 rounded-full text-white">
                   Download CV
                 </button>
               </a>

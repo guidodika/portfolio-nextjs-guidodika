@@ -90,7 +90,7 @@ function NavBar() {
             href="https://github.com/guidodika/portfolio-nextjs-guidodika"
             target="_blank"
           >
-            <button className="p-3 bg-gray-600 text-white rounded-3xl flex items-center gap-2 ">
+            <button className="p-3 bg-gray-600 hover:bg-gray-500 text-white rounded-3xl flex items-center gap-2 ">
               Source Code <GrGithub />
             </button>
           </a>

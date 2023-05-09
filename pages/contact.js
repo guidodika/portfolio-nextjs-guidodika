@@ -56,7 +56,7 @@ function Contact() {
                   className="border-b-2 border-b-black focus:outline-none md:pt-3"
                 />
               </div>
-              <button className="bg-gray-600 p-2 rounded-full text-white">
+              <button className="bg-gray-600 hover:bg-gray-500 p-2 rounded-full text-white">
                 Kirim Pesan
               </button>
             </form>

@@ -23,7 +23,7 @@ function Home() {
           <Image
             src={me}
             alt="gambar"
-            className=" h-50 w-50 rounded-full md:w-[30%] md:h-[30%] md:rounded-b-full dark:border-2"
+            className=" h-50 w-50 object-scale-down rounded-full md:w-[400px] md:h-[500px] dark:border-2"
           />
         </div>
       </div>

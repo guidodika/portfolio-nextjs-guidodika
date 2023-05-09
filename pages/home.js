@@ -1,8 +1,6 @@
 import Image from "next/image";
 import me from "/public/image-guidodika.png";
 import Link from "next/link";
-import { BsMoonStars } from "react-icons/bs";
-import { useEffect, useState } from "react";
 import ToogleTheme from "./toggleTheme";
 import Layout from "./layout";
 
@@ -10,8 +8,8 @@ function Home() {
   return (
     <Layout>
       <div>
-        <div className="h-screen md:h-fit grid p-10 md:flex md:justify-evenly pt-5 ">
-          <ToogleTheme className="" />
+        <div className="h-screen md:h-fit grid p-10 md:flex md:justify-around pt-5 ">
+          <ToogleTheme />
           <div className="font-nunito font-bold my-auto">
             <h3 className="text-2xl md:text-3xl py-1">Hey semuanya,</h3>
             <h1 className="text-3xl md:text-5xl py-1 ">Guido Dika Firguston</h1>

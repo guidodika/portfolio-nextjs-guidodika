@@ -8,7 +8,7 @@ function NavBar() {
   return (
     <nav className="bg-gradient-to-r w-full border-gray-200 px-5 md:px-10 ">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <span className="text-gray-900 self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+        <span className="text-gray-900 self-center text-2xl font-lobster whitespace-nowrap dark:text-white">
           guidodika
         </span>
         <button

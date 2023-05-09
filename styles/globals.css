@@ -20,13 +20,13 @@ body {
   text-decoration: none;
 }
 
+@font-face {
+  font-family: "lobster";
+  src: url("../public/Lobster-Regular.ttf");
+}
+
 @layer base {
   body {
     @apply dark:bg-gray-800 bg-gray-100;
   }
-}
-
-@font-face {
-  font-family: "nunito";
-  src: url("../public/Nunito-Regular.ttf");
 }

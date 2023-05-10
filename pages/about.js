@@ -44,91 +44,91 @@ function About() {
           <div className="grid">
             <div className="grid grid-rows-4 grid-flow-col gap-4 my-5">
               <div>
-                <span className="flex items-center gap-2">
-                  <AiFillHtml5 className="text-2xl" />
-                  <h3 className="text-xl pb-2">HTML</h3>
+                <span className="flex items-center gap-2 md:text-2xl">
+                  <AiFillHtml5 />
+                  <h3>HTML</h3>
                 </span>
                 <div class="w-full bg-gray-200 rounded-full dark:border-white dark:border-2">
-                  <div class="bg-gray-800 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[50%]">
+                  <div class="bg-gray-800 text-[10px] md:text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[50%]">
                     menengah
                   </div>
                 </div>
               </div>
 
               <div>
-                <span className="flex items-center gap-2">
-                  <DiCss3 className="text-2xl" />
-                  <h3 className="text-xl pb-2">CSS</h3>
+                <span className="flex items-center gap-2 md:text-2xl ">
+                  <DiCss3 />
+                  <h3>CSS</h3>
                 </span>
                 <div class="w-full bg-gray-200 rounded-full dark:border-white dark:border-2">
-                  <div class="bg-gray-800 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[50%] ">
+                  <div class="bg-gray-800 text-[10px] md:text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[50%] ">
                     menengah
                   </div>
                 </div>
               </div>
               <div>
-                <span className="flex items-center gap-2">
-                  <IoLogoJavascript className="text-2xl" />
-                  <h3 className="text-xl pb-2">Javascript</h3>
+                <span className="flex items-center gap-2 md:text-2xl">
+                  <IoLogoJavascript />
+                  <h3>Javascript</h3>
                 </span>
                 <div class="w-full bg-gray-200 rounded-full dark:border-white dark:border-2">
-                  <div class="bg-gray-800 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[50%]">
+                  <div class="bg-gray-800 text-[10px] md:text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[50%]">
                     menengah
                   </div>
                 </div>
               </div>
               <div>
-                <span className="flex items-center gap-2">
-                  <DiReact className="text-2xl" />
-                  <h3 className="text-xl pb-2">React JS</h3>
+                <span className="flex items-center gap-2 md:text-2xl">
+                  <DiReact />
+                  <h3>React JS</h3>
                 </span>
                 <div class="w-full bg-gray-200 rounded-full dark:border-white dark:border-2">
-                  <div class="bg-gray-800 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[50%]">
+                  <div class="bg-gray-800 text-[10px] md:text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[50%]">
                     menengah
                   </div>
                 </div>
               </div>
               <div>
-                <span className="flex items-center gap-2">
-                  <SiNextdotjs className="text-2xl" />
-                  <h3 className="text-xl pb-2">Next JS</h3>
+                <span className="flex items-center gap-2 md:text-2xl">
+                  <SiNextdotjs />
+                  <h3>Next JS</h3>
                 </span>
                 <div class="w-full bg-gray-200 rounded-full dark:border-white dark:border-2">
-                  <div class="bg-gray-800 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[50%]">
+                  <div class="bg-gray-800 text-[10px] md:text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[50%]">
                     menengah
                   </div>
                 </div>
               </div>
               <div>
-                <span className="flex items-center gap-2">
-                  <SiTailwindcss className="text-2xl" />
-                  <h3 className="text-xl pb-2">Tailwind CSS</h3>
+                <span className="flex items-center gap-2 md:text-2xl">
+                  <SiTailwindcss />
+                  <h3>Tailwind CSS</h3>
                 </span>
                 <div class="w-full bg-gray-200 rounded-full dark:border-white dark:border-2">
-                  <div class="bg-gray-800 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[50%]">
+                  <div class="bg-gray-800 text-[10px] md:text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[50%]">
                     menengah
                   </div>
                 </div>
               </div>
               <div>
-                <span className="flex items-center gap-2">
-                  <SiKotlin className="text-2xl" />
-                  <h3 className="text-xl pb-2">Kotlin</h3>
+                <span className="flex items-center gap-2 md:text-2xl">
+                  <SiKotlin />
+                  <h3>Kotlin</h3>
                 </span>
 
                 <div class="w-full bg-gray-200 rounded-full dark:border-white dark:border-2">
-                  <div class="bg-gray-800 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[75%]">
+                  <div class="bg-gray-800 text-[10px] md:text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[75%]">
                     pengalaman 1 tahun
                   </div>
                 </div>
               </div>
               <div>
-                <span className="flex items-center gap-2">
-                  <BsGit className="text-2xl" />
-                  <h3 className="text-xl pb-2">Git</h3>
+                <span className="flex items-center gap-2 md:text-2xl">
+                  <BsGit />
+                  <h3>Git</h3>
                 </span>
                 <div class="w-full bg-gray-200 rounded-full dark:border-white dark:border-2">
-                  <div class="bg-gray-800 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[75%]">
+                  <div class="bg-gray-800 text-[10px] md:text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[75%]">
                     pengalaman
                   </div>
                 </div>

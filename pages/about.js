@@ -48,8 +48,8 @@ function About() {
                   <AiFillHtml5 />
                   <h3>HTML</h3>
                 </span>
-                <div class="w-full bg-gray-200 rounded-full dark:border-white dark:border-2">
-                  <div class="bg-gray-800 text-[10px] md:text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[50%]">
+                <div className="w-full bg-gray-200 rounded-full dark:border-white dark:border-2">
+                  <div className="bg-gray-800 text-[10px] md:text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[50%]">
                     menengah
                   </div>
                 </div>
@@ -60,8 +60,8 @@ function About() {
                   <DiCss3 />
                   <h3>CSS</h3>
                 </span>
-                <div class="w-full bg-gray-200 rounded-full dark:border-white dark:border-2">
-                  <div class="bg-gray-800 text-[10px] md:text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[50%] ">
+                <div className="w-full bg-gray-200 rounded-full dark:border-white dark:border-2">
+                  <div className="bg-gray-800 text-[10px] md:text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[50%] ">
                     menengah
                   </div>
                 </div>
@@ -71,8 +71,8 @@ function About() {
                   <IoLogoJavascript />
                   <h3>Javascript</h3>
                 </span>
-                <div class="w-full bg-gray-200 rounded-full dark:border-white dark:border-2">
-                  <div class="bg-gray-800 text-[10px] md:text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[50%]">
+                <div className="w-full bg-gray-200 rounded-full dark:border-white dark:border-2">
+                  <div className="bg-gray-800 text-[10px] md:text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[50%]">
                     menengah
                   </div>
                 </div>
@@ -82,8 +82,8 @@ function About() {
                   <DiReact />
                   <h3>React JS</h3>
                 </span>
-                <div class="w-full bg-gray-200 rounded-full dark:border-white dark:border-2">
-                  <div class="bg-gray-800 text-[10px] md:text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[50%]">
+                <div className="w-full bg-gray-200 rounded-full dark:border-white dark:border-2">
+                  <div className="bg-gray-800 text-[10px] md:text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[50%]">
                     menengah
                   </div>
                 </div>
@@ -93,8 +93,8 @@ function About() {
                   <SiNextdotjs />
                   <h3>Next JS</h3>
                 </span>
-                <div class="w-full bg-gray-200 rounded-full dark:border-white dark:border-2">
-                  <div class="bg-gray-800 text-[10px] md:text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[50%]">
+                <div className="w-full bg-gray-200 rounded-full dark:border-white dark:border-2">
+                  <div className="bg-gray-800 text-[10px] md:text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[50%]">
                     menengah
                   </div>
                 </div>
@@ -104,8 +104,8 @@ function About() {
                   <SiTailwindcss />
                   <h3>Tailwind CSS</h3>
                 </span>
-                <div class="w-full bg-gray-200 rounded-full dark:border-white dark:border-2">
-                  <div class="bg-gray-800 text-[10px] md:text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[50%]">
+                <div className="w-full bg-gray-200 rounded-full dark:border-white dark:border-2">
+                  <div className="bg-gray-800 text-[10px] md:text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[50%]">
                     menengah
                   </div>
                 </div>
@@ -116,8 +116,8 @@ function About() {
                   <h3>Kotlin</h3>
                 </span>
 
-                <div class="w-full bg-gray-200 rounded-full dark:border-white dark:border-2">
-                  <div class="bg-gray-800 text-[10px] md:text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[75%]">
+                <div className="w-full bg-gray-200 rounded-full dark:border-white dark:border-2">
+                  <div className="bg-gray-800 text-[10px] md:text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[75%]">
                     pengalaman 1 tahun
                   </div>
                 </div>
@@ -127,8 +127,8 @@ function About() {
                   <BsGit />
                   <h3>Git</h3>
                 </span>
-                <div class="w-full bg-gray-200 rounded-full dark:border-white dark:border-2">
-                  <div class="bg-gray-800 text-[10px] md:text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[75%]">
+                <div className="w-full bg-gray-200 rounded-full dark:border-white dark:border-2">
+                  <div className="bg-gray-800 text-[10px] md:text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[75%]">
                     pengalaman
                   </div>
                 </div>

@@ -13,31 +13,33 @@ function NavBar() {
         </span>
         <button
           type="button"
-          class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 "
+          className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 "
           onClick={() => setIsOpen(!isOpen)}
         >
-          <span class="sr-only">Open main menu</span>
+          <span className="sr-only">Open main menu</span>
           <svg
-            class="w-6 h-6"
+            className="w-6 h-6"
             aria-hidden="true"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-              clip-rule="evenodd"
+              clipRule="evenodd"
             ></path>
           </svg>
           <p>MENU</p>
         </button>
-        <div class={`w-full md:block md:w-auto ${isOpen ? "block" : "hidden"}`}>
-          <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-900 dark:border-white rounded-sm md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
+        <div
+          className={`w-full md:block md:w-auto ${isOpen ? "block" : "hidden"}`}
+        >
+          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-900 dark:border-white rounded-sm md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
             <li>
               <Link
                 href="/"
-                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-400 dark:hover:bg-gray-600 md:hover:bg-transparent md:hover:dark:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 dark:text-white"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-400 dark:hover:bg-gray-600 md:hover:bg-transparent md:hover:dark:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 dark:text-white"
               >
                 Home
               </Link>
@@ -45,7 +47,7 @@ function NavBar() {
             <li>
               <Link
                 href="/about"
-                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-400 dark:hover:bg-gray-600 md:hover:bg-transparent md:hover:dark:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 dark:text-white "
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-400 dark:hover:bg-gray-600 md:hover:bg-transparent md:hover:dark:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 dark:text-white "
               >
                 About
               </Link>
@@ -53,7 +55,7 @@ function NavBar() {
             <li>
               <Link
                 href="/portfolio"
-                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-400 dark:hover:bg-gray-600 md:hover:bg-transparent md:hover:dark:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 dark:text-white"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-400 dark:hover:bg-gray-600 md:hover:bg-transparent md:hover:dark:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 dark:text-white"
               >
                 Portfolio
               </Link>
@@ -61,7 +63,7 @@ function NavBar() {
             <li>
               <Link
                 href="/resume"
-                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-400 dark:hover:bg-gray-600 md:hover:bg-transparent md:hover:dark:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 dark:text-white"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-400 dark:hover:bg-gray-600 md:hover:bg-transparent md:hover:dark:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 dark:text-white"
               >
                 Resume
               </Link>
@@ -69,7 +71,7 @@ function NavBar() {
             <li>
               <Link
                 href="/contact"
-                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-400 dark:hover:bg-gray-600 md:hover:bg-transparent md:hover:dark:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 dark:text-white"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-400 dark:hover:bg-gray-600 md:hover:bg-transparent md:hover:dark:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 dark:text-white"
               >
                 Contact
               </Link>
@@ -78,7 +80,7 @@ function NavBar() {
               <Link
                 href="https://github.com/guidodika/portfolio-nextjs-guidodika"
                 target="_blank"
-                class="md:hidden block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-400 dark:hover:bg-gray-600 md:hover:bg-transparent md:hover:dark:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 dark:text-white"
+                className="md:hidden block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-400 dark:hover:bg-gray-600 md:hover:bg-transparent md:hover:dark:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 dark:text-white"
               >
                 Source Code This Website
               </Link>

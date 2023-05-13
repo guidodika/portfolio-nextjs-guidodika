@@ -3,17 +3,30 @@ import me from "/public/image-guidodika.png";
 import Link from "next/link";
 import ToogleTheme from "./toggleTheme";
 import Layout from "./layout";
+import AnimatedText from "../components/AnimatedText";
 
 function Home() {
+  const dynamicTexts = [
+    "Selamat Pagi",
+    "Selamat Siang",
+    "Selamat Sore",
+    "Selamat Malam",
+    "Berkah Dalem, Tuhan Memberkati",
+  ];
+
   return (
     <Layout>
       <div>
-        <div className="h-screen  md:h-fit grid p-10 md:flex md:justify-around pt-5 ">
+        <div className="min-h-screen md:h-fit grid p-10 md:flex md:justify-around pt-5 ">
           <ToogleTheme />
           <div className="font-nunito font-bold my-auto">
-            <h3 className="text-2xl md:text-3xl py-1">Hey semuanya,</h3>
+            <div className="relative text-2xl md:text-3xl py-1 font-lobster flex">
+              <AnimatedText texts={dynamicTexts} />
+              <h2 className="pl-2">Semuanya</h2>
+            </div>
             <h1 className="text-3xl md:text-5xl py-1 ">Guido Dika Firguston</h1>
             <h2 className="text-xl py-2 ">Seorang Frontend Developer</h2>
+
             <Link href="/about">
               <button className="p-3 bg-gray-600 hover:bg-gray-500 text-white rounded-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                 Get Started

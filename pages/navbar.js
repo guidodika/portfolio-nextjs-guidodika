@@ -57,7 +57,7 @@ function NavBar() {
             isOpen ? "block " : "hidden"
           }`}
         >
-          <ul className="font-medium bg-gray-200 dark:bg-gray-900 md:bg-transparent md:dark:bg-transparent flex flex-col p-4 md:p-0 mt-4 border border-gray-900 dark:border-white rounded-sm md:flex-row md:space-x-8 md:mt-0 md:border-0">
+          <ul className="font-medium bg-gray-200 rounded-xl dark:bg-gray-900 md:bg-transparent md:dark:bg-transparent flex flex-col p-4 md:p-0 mt-4 border border-gray-900 dark:border-white md:flex-row md:space-x-8 md:mt-0 md:border-0">
             <li>
               <Link
                 href="/"

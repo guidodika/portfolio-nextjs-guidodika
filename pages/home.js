@@ -24,9 +24,7 @@ function Home() {
               <AnimatedText texts={dynamicTexts} />
               <h2 className="pl-2">Semuanya</h2>
             </div>
-            <h1 className="text-3xl sm:text-2xl md:text-5xl py-1 ">
-              Guido Dika Firguston
-            </h1>
+            <h1 className="text-2xl md:text-5xl py-1 ">Guido Dika Firguston</h1>
             <h2 className="text-xl py-2 ">Seorang Frontend Developer</h2>
 
             <Link href="/about">

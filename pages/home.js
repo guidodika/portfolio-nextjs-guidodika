@@ -11,7 +11,7 @@ function Home() {
     "Selamat Siang",
     "Selamat Sore",
     "Selamat Malam",
-    "Berkah Dalem, Tuhan Memberkati",
+    "Berkah Dalem",
   ];
 
   return (

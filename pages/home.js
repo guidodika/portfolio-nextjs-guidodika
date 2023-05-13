@@ -20,7 +20,7 @@ function Home() {
         <div className="min-h-screen md:h-fit grid p-10 md:flex md:justify-around pt-5 ">
           <ToogleTheme />
           <div className="font-nunito font-bold my-auto">
-            <div className="relative text-2xl md:text-3xl py-1 font-lobster flex">
+            <div className="relative text-xl md:text-3xl py-1 font-lobster flex">
               <AnimatedText texts={dynamicTexts} />
               <h2 className="pl-2">Semuanya</h2>
             </div>

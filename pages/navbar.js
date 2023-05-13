@@ -1,12 +1,32 @@
 import Link from "next/link";
-import { useState } from "react";
+import React, { useState, useContext } from "react";
 import { GrGithub } from "react-icons/gr";
+import { useEffect } from "react";
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [navbarBg, setNavbarBg] = useState("bg-transparent");
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      if (currentScrollPos > 0) {
+        setNavbarBg("backdrop-blur-3xl");
+      } else {
+        setNavbarBg("bg-transparent");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <nav className="bg-gradient-to-r w-full border-gray-200 px-5 md:px-10 ">
+    <nav
+      className={`navbar z-20 fixed w-full border-gray-200 px-5 md:px-10 ${navbarBg}`}
+    >
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <span className="text-gray-900 self-center text-2xl font-lobster whitespace-nowrap dark:text-white">
           guidodika
@@ -33,9 +53,11 @@ function NavBar() {
           <p>MENU</p>
         </button>
         <div
-          className={`w-full md:block md:w-auto ${isOpen ? "block" : "hidden"}`}
+          className={`w-full md:block md:w-auto ${
+            isOpen ? "block " : "hidden"
+          }`}
         >
-          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-900 dark:border-white rounded-sm md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
+          <ul className="font-medium bg-gray-200 dark:bg-gray-900 md:bg-transparent md:dark:bg-transparent flex flex-col p-4 md:p-0 mt-4 border border-gray-900 dark:border-white rounded-sm md:flex-row md:space-x-8 md:mt-0 md:border-0">
             <li>
               <Link
                 href="/"

@@ -15,7 +15,7 @@ function Home() {
             <h1 className="text-3xl md:text-5xl py-1 ">Guido Dika Firguston</h1>
             <h2 className="text-xl py-2 ">Seorang Frontend Developer</h2>
             <Link href="/about">
-              <button className="p-3 bg-gray-600 hover:bg-gray-500 text-white rounded-3xl">
+              <button className="p-3 bg-gray-600 hover:bg-gray-500 text-white rounded-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                 Get Started
               </button>
             </Link>

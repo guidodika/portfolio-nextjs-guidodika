@@ -8,9 +8,13 @@ export default function App({ Component, pageProps }) {
   return (
     <AnimatePresence mode="wait" initial={false}>
       <ThemeProvider attribute="class">
-        <NavBar />
-        <Component {...pageProps} />
-        <Footer />
+        <div>
+          <NavBar />
+          <div className="pt-16">
+            <Component {...pageProps} />
+          </div>
+          <Footer />
+        </div>
       </ThemeProvider>
     </AnimatePresence>
   );
